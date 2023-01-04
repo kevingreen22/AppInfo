@@ -19,31 +19,31 @@ public struct Info {
         return infoPlistDictionary?[key] as? String
     }
     
-    static var appName: String {
+    static public var appName: String {
         return readFromInfoPlist(withKey: "CFBundleName") ?? "(unknown app name)"
     }
     
-    static var version: String {
+    static public var version: String {
         return readFromInfoPlist(withKey: "CFBundleShortVersionString") ?? "(unknown app version)"
     }
     
-    static var build: String {
+    static public var build: String {
         return readFromInfoPlist(withKey: "CFBundleVersion") ?? "(unknown build number)"
     }
     
-    static var minimumOSVersion: String {
+    static public var minimumOSVersion: String {
         return readFromInfoPlist(withKey: "MinimumOSVersion") ?? "(unknown minimum OSVersion)"
     }
     
-    static var copyrightNotice: String {
+    static public var copyrightNotice: String {
         return readFromInfoPlist(withKey: "NSHumanReadableCopyright") ?? "(unknown copyright notice)"
     }
     
-    static var bundleIdentifier: String {
+    static public var bundleIdentifier: String {
         return readFromInfoPlist(withKey: "CFBundleIdentifier") ?? "(unknown bundle identifier)"
     }
     
-    static var developer: String {
+    static public var developer: String {
         return "Kevin Green"
     }
     
