@@ -1,3 +1,4 @@
 # AppInfo
 
-A description of this package.
+Static methods containing standard App info (i.e. app name, verson & build numbers, p.list dictionary access, etc.).
+ 
