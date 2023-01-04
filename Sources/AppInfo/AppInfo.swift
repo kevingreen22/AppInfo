@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct AppInfo {
+struct Info {
     
     // Holds a reference to the Info.plist of the app as a Dictionary
     static private let infoPlistDictionary = Bundle.main.infoDictionary
